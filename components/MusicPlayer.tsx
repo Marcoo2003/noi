@@ -21,7 +21,7 @@ const MusicPlayer: React.FC = () => {
       */}
       <div style={{ display: 'none' }}>
         <ReactPlayer
-          src={`/public/Taciturnal.mp3`}
+          src={`Taciturnal.mp3`}
           playing={isPlaying}
           volume={1}
           loop={true}
